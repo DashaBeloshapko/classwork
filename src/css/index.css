@@ -1,14 +1,92 @@
-a {
-    display: flex;
-    color: blue;
-    border: 2px solid blue;
-    width: 70px;
-    height: 40px;
+.background {
+    background-image: url(../img/zoltan-tasi-HTpAIzZRHvw-unsplash\ 1.png);
+    width: 1440;
+    height: 895px;
+    background-size: cover;
+    border: none;
 }
-a:hover {
-    transform: rotate(35deg);
+.search {
+    display: flex;  
+    width: 369px;
+    height: 30px;      
+    padding-top: 35px; 
+    justify-content: space-between; 
+    width: 100%;  
 }
-body {
+.search__icon {
+    width: 18px;
+    height: 11.5px;
+    padding-left: 138px;
+}
+.search__block {
     display: flex;
-    gap: 5px;
+    padding-right: 138px;
+}
+.search__picture_1 {
+    width: 24px;
+    height: 24px;
+    margin-right: 17px;
+}
+.search__text {
+    color: white;
+    border-bottom: 1px solid white;
+    width: 197.5px; 
+    background-color: transparent; 
+    border-top: none;   
+    border-left: none;
+    border-right: none; 
+    margin-right: 39.5px; 
+}
+.search__text::placeholder {
+    color: white;
+}
+.search__picture_2 {
+    width: 27px;
+    height: 27px;
+    margin-right: 39px;
+}
+.search__picture_3 {
+    width: 24px;
+    height: 29px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+.main__name {    
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px black;        
+}
+.main__name2 {    
+    font-size: 70px;
+    color: white;
+    margin-top: 100px;    
+}
+button {
+    width: 287px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    color: white;
+    display: flex;
+    gap: 19px;
+    justify-content: flex-end;
+    padding-right: 165px;
+    margin-top: 40px;
+    font-size: 12px;
+}
+.footer__namber {
+    display: flex;
+    align-items: center;
 }
